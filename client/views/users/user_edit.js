@@ -37,7 +37,7 @@ Template.user_edit.events({
 
     clearSeenErrors();
     if(!Meteor.user())
-      throwError(i18n.t('You must be logged in.'));
+      throwError(i18n('You must be logged in.'));
 
     var $target=$(e.target);
     var name = $target.find('[name=name]').val();
@@ -74,7 +74,7 @@ Template.user_edit.events({
       if(error){
         throwError(error.reason);
       } else {
-        throwError(i18n.t('Profile updated'));
+        throwError(i18n('Profile updated'));
       }
       Deps.afterFlush(function() {
         var element = $('.grid > .error');

@@ -7,9 +7,9 @@ Template.posts_digest.helpers({
     var today=moment(new Date());
     var diff=today.diff(currentDate, 'days');
     if(diff === 1)
-      return i18n.t("Today");
+      return i18n("Today");
     if(diff === 2)
-      return i18n.t("Yesterday");
+      return i18n("Yesterday");
     return currentDate.format("dddd, MMMM Do YYYY");
   },
   previousDateURL: function(){

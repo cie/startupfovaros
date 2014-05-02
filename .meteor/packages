@@ -18,6 +18,8 @@ rss
 iron-router
 mailchimp
 nprogress
-telescope-i18n
 fast-render
 spin
+accounts-linkedin
+ui
+just-i18n

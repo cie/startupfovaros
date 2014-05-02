@@ -12,7 +12,9 @@
       "iron-router": {},
       "nprogress": {},
       "fast-render": {},
-      "spin": {}
+      "spin": {},
+      "accounts-linkedin": {},
+      "just-i18n": {}
     },
     "packages": {
       "momentjs": {
@@ -55,10 +57,25 @@
         "tag": "v0.2.2",
         "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
       },
+      "accounts-linkedin": {
+        "git": "https://github.com/yefim/meteor-accounts-linkedin.git",
+        "tag": "v0.0.5",
+        "commit": "0ccf12b93f5cd6f487caa68a12a640099e358ffd"
+      },
+      "just-i18n": {
+        "git": "https://github.com/subhog/meteor-just-i18n.git",
+        "tag": "v0.2.4",
+        "commit": "91decfcf5b3b5e67f202a67658350b862330bf3d"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
         "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "linkedin": {
+        "git": "https://github.com/yefim/meteor-linkedin.git",
+        "tag": "v0.0.2",
+        "commit": "c3bac682ea0edd19e58b9172e708f91616888ba0"
       }
     }
   }
