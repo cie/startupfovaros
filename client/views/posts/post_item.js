@@ -71,7 +71,7 @@ Template.post_item.helpers({
     return getCategoryUrl(this.slug);
   },
   commentsDisplayText: function(){
-    return this.comments == 1 ? i18n('comment') : i18n.t('comments');
+    return this.comments == 1 ? i18n('comment') : i18n('comments');
   },
   pointsUnitDisplayText: function(){
     return this.votes == 1 ? i18n('point') : i18n.t('points');
