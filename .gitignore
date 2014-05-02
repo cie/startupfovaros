@@ -19,3 +19,6 @@ dump/
 dump/*
 
 settings.json
+
+*.sw?
+*.orig
