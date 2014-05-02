@@ -118,14 +118,22 @@ input[type="submit"], button, .button, .btn{
 		display: inline-block;
 	}
 }
-.twitter-signup{
+.oauth-signup{
 	margin-bottom:20px;
 	padding-bottom:20px;
 	border-bottom:1px solid $lighter-grey;
-	.twitter-button{
-		background:#00aced;
-	}
 }
+
+.facebook-button{
+        background:#3b5998;
+}
+.twitter-button{
+        background:#00aced;
+}
+.linkedin-button{
+        background:#007bb6;
+}
+
 .category-slug{
 	font-size:12px;
 	float:left;

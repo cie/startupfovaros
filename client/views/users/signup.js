@@ -29,5 +29,19 @@ Template.signup.events({
     Meteor.loginWithTwitter(function(){
       Router.go('/');
     });
+  },
+
+  'click .facebook-button': function(){
+    Meteor.loginWithFacebook(function(){
+      Router.go('/');
+    });
+  },
+
+  'click .linkedin-button': function(){
+    Meteor.loginWithLinkedin(function(){
+      Router.go('/');
+    });
   }
+
+
 });

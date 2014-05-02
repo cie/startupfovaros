@@ -1,9 +1,7 @@
 <template name="signup">
   <div class="grid-small grid-block dialog signup">
     <h2>Sign Up</h2>
-    <div class="twitter-signup twitter-auth">
-      <a class="twitter-button button" href="#">{{i18n "Sign In/Sign Up with Twitter"}}</a>
-    </div>
+    {{> oauth_buttons}}
     <div class="regular-signup regular-auth">
       <form>
         <div class="control-group">
